@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-label="Declared input reaches Auditor and Verifier; Auditor evidence reaches Verifier">
+<rect width="1400" height="420" fill="#f5f8fc"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="#365977"/></marker></defs>
+<g font-family="Arial, sans-serif" fill="#15304a" text-anchor="middle">
+<text x="700" y="42" font-size="26" font-weight="bold">One declared contract. Two calculation paths.</text>
+<g stroke="#365977" stroke-width="2"><rect x="35" y="145" width="220" height="110" rx="14" fill="#e5edf5"/><rect x="315" y="145" width="240" height="110" rx="14" fill="#e3efff"/><rect x="615" y="145" width="210" height="110" rx="14" fill="#e5edf5"/><rect x="885" y="145" width="270" height="110" rx="14" fill="#ddf4ee"/><rect x="1210" y="145" width="155" height="110" rx="14" fill="#e5edf5"/></g>
+<g font-size="23" font-weight="bold"><text x="145" y="182">Declared input</text><text x="435" y="182">Auditor</text><text x="720" y="182">Evidence</text><text x="1020" y="182">Verifier</text><text x="1287" y="182">Decision</text></g>
+<g font-size="17"><text x="145" y="214">Scope + source artifacts</text><text x="435" y="214">Primary calculation</text><text x="720" y="214">Verdict + witnesses</text><text x="1020" y="214">Separate recomputation</text><text x="1287" y="214">Scoped result</text></g>
+<g fill="none" stroke="#365977" stroke-width="3" marker-end="url(#arrow)"><path d="M255 200H305"/><path d="M555 200H605"/><path d="M825 200H875"/><path d="M1155 200H1200"/><path d="M145 145V88H1020V135"/></g>
+<text x="580" y="78" font-size="17">Original declared input also supplied to Verifier</text>
+<text x="700" y="310" font-size="20">claims · css · data · finite · residual</text>
+<text x="700" y="350" font-size="17">Verifier: CONFIRMED / REFUTED / INSUFFICIENT — a confirmed FAIL remains a negative audit finding.</text>
+<text x="700" y="382" font-size="16">Digests bind bytes. They do not establish laboratory provenance or physical correctness.</text>
+</g></svg>

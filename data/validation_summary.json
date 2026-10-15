@@ -1,0 +1,35 @@
+{
+  "source": "Supplied Standard Mathematical V1 showcase validation report",
+  "evidence_class": "supplier_reported_internal_results",
+  "product_tests_in_this_release": "NOT_RUN",
+  "standalone": {
+    "css_oracle": 280,
+    "css_tamper": 40,
+    "data_oracle": 100,
+    "data_tamper": 25,
+    "finite_random": 180,
+    "finite_tamper": 40,
+    "modular_oracle": 280,
+    "modular_tamper": 40,
+    "claim_scenarios": 14,
+    "claim_tamper": 2,
+    "cli_auditor": 5,
+    "cli_verifier": 5,
+    "cli_no_overwrite": 5,
+    "cli_wrong_hash": 5
+  },
+  "comparison": {
+    "css": 30,
+    "data": 7,
+    "finite": 40,
+    "residual": 60,
+    "claims": 1,
+    "mutation": 12,
+    "finite_random": 180,
+    "residual_random": 250
+  },
+  "reported_failures": {
+    "standalone": 0,
+    "comparison": 0
+  }
+}
